@@ -4,7 +4,6 @@ package _03_if_else._3_secret_message_box;
 
 
 import javax.swing.JOptionPane;
-
 /**
  * Secret Message Box / Secure Messaging System
  * 
@@ -15,6 +14,11 @@ import javax.swing.JOptionPane;
  */
 
 public class SecretMessageBox {
+	public void main(String[] args) {
+		String message = "123456";
+		JOptionPane.showInputDialog("Give me a secret message.");
+		
+	}
 
 	// 0. Make a main method and put steps 1-5 inside it
 	
